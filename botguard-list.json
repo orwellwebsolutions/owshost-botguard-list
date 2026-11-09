@@ -2,10 +2,11 @@
   "note": "OWS Bot Guard central list. Each list replaces the matching line in the sites' .htaccess block. Edit, commit, push - the GitHub workflow checks it and publishes it; sites pick it up within ~12 hours.",
   "dot_paths": [
     "claude", "codex", "config", "env", "git", "svn", "hg", "aws", "ssh", "docker",
-    "vscode", "idea", "DS_Store", "npmrc", "composer"
+    "vscode", "idea", "DS_Store", "npmrc", "composer",
+    "dockercfg", "ftpconfig", "remote-sync", "axiom", "tugboat"
   ],
   "json_files": [
-    "auth", "credentials", "secret", "secrets"
+    "auth", "credentials", "secret", "secrets", "deployment-config"
   ],
   "user_agents": [
     "Bytespider", "PetalBot", "MJ12bot", "DotBot", "BLEXBot", "DataForSeoBot", "serpstatbot",
