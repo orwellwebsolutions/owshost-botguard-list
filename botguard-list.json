@@ -8,6 +8,17 @@
   "json_files": [
     "auth", "credentials", "secret", "secrets", "deployment-config"
   ],
+  "probe_dirs": [
+    "phpmyadmin", "_phpmyadmin", "phppgadmin", "adminer", "administrator",
+    "nagiosxi", "nagiosfusion", "nagioslogserver", "nagiosna", "solr", "zipkin", "mifs",
+    "LogonPoint", "vpns", "citrix", "CitrixAccess", "XenApp1", "XenApp2", "DesktopWeb", "zimbraAdmin",
+    "sitecore", "bitrix", "pandora_console", "opennms", "webmin", "monitorix-cgi", "adfs", "virtualems",
+    "iPages", "fpui", "vsapres", "sslmgr", "apache-default", "pagespeed_admin", "_profiler", "_all_dbs",
+    "typo3", "concrete5", "webalizer", "webvisu"
+  ],
+  "probe_exts": [
+    "action", "do", "zul", "xsi", "vm", "mwsl", "jspx", "jsf"
+  ],
   "user_agents": [
     "Bytespider", "PetalBot", "MJ12bot", "DotBot", "BLEXBot", "DataForSeoBot", "serpstatbot",
     "zgrab", "masscan", "Nuclei", "sqlmap", "nikto", "WPScan"
