@@ -3,10 +3,11 @@
   "dot_paths": [
     "claude", "codex", "config", "env", "git", "svn", "hg", "aws", "ssh", "docker",
     "vscode", "idea", "DS_Store", "npmrc", "composer",
-    "dockercfg", "ftpconfig", "remote-sync", "axiom", "tugboat"
+    "dockercfg", "dockerenv", "ftpconfig", "remote-sync", "axiom", "tugboat"
   ],
   "json_files": [
-    "auth", "credentials", "secret", "secrets", "deployment-config"
+    "auth", "credentials", "secret", "secrets", "deployment-config",
+    "google-credentials", "gcp-credentials", "gcp-key", "firebase-credentials", "firebase-admin", "service-account", "sa"
   ],
   "probe_dirs": [
     "phpmyadmin", "_phpmyadmin", "phppgadmin", "adminer", "administrator",
@@ -14,7 +15,7 @@
     "LogonPoint", "vpns", "citrix", "CitrixAccess", "XenApp1", "XenApp2", "DesktopWeb", "zimbraAdmin",
     "sitecore", "bitrix", "pandora_console", "opennms", "webmin", "monitorix-cgi", "adfs", "virtualems",
     "iPages", "fpui", "vsapres", "sslmgr", "apache-default", "pagespeed_admin", "_profiler", "_all_dbs",
-    "typo3", "concrete5", "webalizer", "webvisu"
+    "typo3", "concrete5", "webalizer", "webvisu", "autodiscover"
   ],
   "probe_exts": [
     "action", "do", "zul", "xsi", "vm", "mwsl", "jspx", "jsf"
